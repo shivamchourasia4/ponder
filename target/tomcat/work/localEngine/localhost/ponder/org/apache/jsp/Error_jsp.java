@@ -61,7 +61,7 @@ public final class Error_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<head>\r\n");
       out.write("    <meta charset=\"UTF-8\">\r\n");
       out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
-      out.write("    <title>Document</title>\r\n");
+      out.write("    <title>ERROR 404</title>\r\n");
       out.write("\r\n");
       out.write("    <style>\r\n");
       out.write("        body{\r\n");
