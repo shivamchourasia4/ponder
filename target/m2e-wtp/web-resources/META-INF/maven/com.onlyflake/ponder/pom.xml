@@ -43,6 +43,21 @@
     	<scope>provided</scope>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.21</version>
+</dependency>
+	
+	
+	
+	<dependency>
+  <groupId>com.heroku</groupId>
+  <artifactId>webapp-runner</artifactId>
+  <version>9.0.30.0</version>
+  <scope>provided</scope>
+</dependency>
 	<!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
 <!-- <dependency> -->
 <!--     <groupId>com.github.jsimone</groupId> -->
@@ -106,9 +121,9 @@
                     <configuration>
                         <artifactItems>
                             <artifactItem>
-                                <groupId>com.github.jsimone</groupId>
+                                <groupId>com.heroku</groupId>
                                 <artifactId>webapp-runner</artifactId>
-                                <version>9.0.24.1</version>
+                                <version>9.0.30.0</version>
                                 <destFileName>webapp-runner.jar</destFileName>
                             </artifactItem>
                         </artifactItems>

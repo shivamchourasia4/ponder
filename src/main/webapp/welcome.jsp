@@ -90,9 +90,9 @@
         <div class="forpost flex">
             <form class="card-form flex" action="Post" method="post">
                 
-                <input class="form-control post-topic" name="topic" type="text" placeholder="Topic" required>
+                <input class="form-control post-topic" name="topic" type="text" maxlength="30" placeholder="Topic" required>
                 
-                <textarea class="form-control post-text" rows="4" name="posthis" type="text" id="postarea" placeholder="What are you pondering over today?" required></textarea>
+                <textarea class="form-control post-text" rows="4" name="posthis" maxlength="280" id="postarea" placeholder="What are you pondering over today?" required></textarea>
                 
                 <hr width="100%" class="divider">
                 <input type="submit" value="Post" class="butn">
@@ -100,23 +100,6 @@
             </form>
         </div>
     </div>
-
-    <div class="container cards">
-        <div class="postholder">
-          <b>@imshivam</b> is pondering over<span class="topichighlight"> Endgame</span>
-        </div>
-        <div class="card-body">
-          <!-- <h5 class="card-title">Special title treatment</h5>  -->
-          <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-          <h5>Destiny Still Arrives!!</h5>
-        </div>
-        <div class="postholder">
-          2 days ago
-        </div>
-      </div>
-</div>
-	
-	
 	
 <!-- 	<form action="Post" method="post"> -->
 <!-- 	<input type="text" name="topic" placeholder="Topic" required> -->
