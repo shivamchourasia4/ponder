@@ -9,14 +9,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>ponder Maven Webapp</name>
+  <name>ponder</name>
   <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -71,7 +71,7 @@
 
   <build>
     <finalName>ponder</finalName>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+<!--     <pluginManagement>lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
@@ -98,7 +98,8 @@
           <artifactId>maven-war-plugin</artifactId>
           <version>3.2.2</version>
           <configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
+					<warSourceDirectory>src/main/webapp</warSourceDirectory>
+					<warName>ponder</warName>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
         </plugin>
@@ -132,6 +133,6 @@
             </executions>
         </plugin>
       </plugins>
-    </pluginManagement>
+<!--     </pluginManagement> -->
   </build>
 </project>
