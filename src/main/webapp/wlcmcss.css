@@ -162,6 +162,17 @@ body{
 	max-width: 90%;
 	margin:7px
 }
+
+.details{
+    padding: 2rem;
+}
+
+.footer{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-around;
+}
+
 @keyframes slideInFromTop{
     0%{
         transform: translateY(-100%);

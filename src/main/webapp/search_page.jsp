@@ -93,23 +93,10 @@
 
     <div class="container flex cards">
         <div class="forpost flex">
-            <h2>Search Results...</h2>
+            <h2>Search Results</h2>
         </div>
     </div>
 
-    <div class="container cards">
-        <div class="postholder">
-          <b>@imshivam</b> is pondering over<span class="topichighlight"> Endgame</span>
-        </div>
-        <div class="card-body">
-          <!-- <h5 class="card-title">Special title treatment</h5>  -->
-          <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-          <h5>Destiny Still Arrives!!</h5>
-        </div>
-        <div class="postholder">
-          2 days ago
-        </div>
-      </div>
 </div>
 	
 	
