@@ -6,20 +6,20 @@ import java.sql.*;
 public class Dbcon {
 
 	// ------In development connection..
-	private static String url = "jdbc:mysql://localhost:3306/ponder";    
-    private static String driverName = "com.mysql.cj.jdbc.Driver";   
-    private static String username = "root";   
-    private static String password = "root";
-    private static Connection connection = null ;
-    private static String urlstring;
+//	private static String url = "jdbc:mysql://localhost:3306/ponder";    
+//    private static String driverName = "com.mysql.cj.jdbc.Driver";   
+//    private static String username = "root";   
+//    private static String password = "root";
+//    private static Connection connection = null ;
+//    private static String urlstring;
 
 	// ---Remote connection
-//	private static String url = "jdbc:mysql://remotemysql.com:3306/xTXmxFxUsE";
-//	private static String driverName = "com.mysql.cj.jdbc.Driver";
-//	private static String username = "xTXmxFxUsE";
-//	private static String password = "YPrewEW7ZC";
-//	private static Connection connection = null;
-//    private static String urlstring;
+	private static String url = "jdbc:mysql://remotemysql.com:3306/xTXmxFxUsE";
+	private static String driverName = "com.mysql.cj.jdbc.Driver";
+	private static String username = "xTXmxFxUsE";
+	private static String password = "YPrewEW7ZC";
+	private static Connection connection = null;
+    private static String urlstring;
 
 	// Connect to database
 	public static void getConnection() {
